@@ -45,7 +45,7 @@
     flex-wrap: wrap;
 }
 .flex-item{
-  background-color: aliceblue;
+  background-color: #fff;
 }
 .form-control{
    width: 100%;
@@ -70,4 +70,18 @@
     display: block;
     margin-top: -30px;
     margin-left: 91px;
+}
+#ulelm{
+    list-style-type: none;
+}
+#ulelm li{
+    float: left;
+    margin-left: 12px;
+    font-size: 18px;
+    font-weight:bold;
+    color: #a0a0a0;
+}
+#ulelm li:hover{
+    color: #2f2f2f;
+    cursor: default;
 }

@@ -15,8 +15,8 @@
         </a>
         <div class="search">
             <form action="#">
-                <input type="text" placeholder=" Search" name="search">
-                <button>
+                <input type="text" placeholder=" Search" id="searchInput" name="search">
+                <button type="button" id="searchBtn">
                     <i class="fa fa-search"
                         style="font-size: 18px;">
                     </i>
@@ -31,8 +31,14 @@
     <div class="channelTitle"> 
         <h2 class="dispinline" id="channelTitle" >TITLE</h2>
         <span class="subtitle" id="channelSubTitle">20K</span>            
-    </div><br>
-    <div class="flex-container" id="flex-container"></div>
+    </div>
+    <div style="display: flex;">
+        <ul id="ulelm">    
+            <li>Playlist</li>        
+            <li>Videos</li>                        
+        </ul>
+    </div>
+    <div class="flex-container" id="flex-container"></div>    
 </body>
 <script src="./script.js"></script>
 </html>
